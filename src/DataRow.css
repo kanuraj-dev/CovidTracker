@@ -1,0 +1,65 @@
+@media only screen and (min-width: 1200px) {
+  .DataRow {
+    padding: 0 150px !important;
+  }
+  .DataRow__heading {
+    font-size: 10vh !important;
+  }
+}
+.DataRow {
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+
+.DataRow__heading {
+  color: aqua;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 7vh;
+}
+
+.DataRow__date {
+  color: lightgray;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 0.7rem;
+}
+
+.DataRow__card {
+  padding: 20px;
+  width: 80%;
+  max-width: 300px;
+  margin: 15px auto;
+  border-radius: 10px;
+  background-color: #232323;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.DataRow__cardTitle {
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  color: rgb(206, 175, 175);
+}
+
+.DataRow__cardTitle > span {
+  margin-left: 10px;
+}
+
+.DataRow__cardCount {
+  font-size: 3rem;
+  color: aliceblue;
+}
+@media only screen and (max-width: 400px) {
+  .DataRow__cardCount {
+    font-size: 2.4rem;
+  }
+  .DataRow__cardTitle {
+    font-size: 1.2rem;
+  }
+}

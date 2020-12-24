@@ -1,0 +1,34 @@
+.searchCountry {
+  margin-top: 70px;
+}
+
+.searchCountry__heading {
+  font-size: 2.2rem;
+  color: rgb(180, 196, 211);
+  text-align: center;
+  padding: 0 10px;
+  margin: 15px auto;
+}
+
+.searchCountry__searchBox {
+  width: fit-content;
+  background: #36454f;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin: 10px auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media only screen and (max-width: 350px) {
+  .searchCountry__searchBox {
+    max-width: 90% !important;
+  }
+  .searchCountry__heading {
+    font-size: 2rem;
+  }
+}
+
+.searchCountry__searchBox * {
+  outline: none !important;
+  border: none !important;
+}
